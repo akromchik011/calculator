@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #B6BDCB;
+}
+.container{
+    margin-top: 100px;
+    margin-left: 40%;
+    border: 2px solid black;
+    width: 280px;
+    height: 340px;
+    border-radius: 20px;
+    background-color: white;
+    transition: 0.4s linear;
+}
+
+#display{
+    border-radius: 18px;
+    border: 1px solid black;
+    width: 278px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    
+    
+    
+}
+.buttons{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+button{
+    font-size: 20px;
+    width: 50px;
+    height: 39px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 50px;
+    transition: 0s linear;
+    background-color: #909090;
+    
+}
+#equal{
+    margin-top: 3px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: rgb(73, 95, 73);
+}
+button:active{
+    background: linear-gradient(to bottom right,#929bc2,#c0c5cf);
+}
+.buttons button:hover{
+    transform:  scale(1.1);
+    background-color: rgb(63, 65, 141);
+}
+#equal:hover{
+    background-color: green;
+
+}
+#clear:hover{
+    background-color: red;
+}
+.btn_operator{
+    background-color: #929bc2;
+}
+#clear{
+    background-color: rgb(122, 43, 43);
+}
+.dark{
+    background-color: #050505;
+    
+}
+.dark button{
+    color: white;
+    
+}
+.dark div{
+    color: white;
+ 
+}
+.left{
+    background-color: #000000;
+}
+.left:hover{
+    background-color: black;
+}
+.dark .left{
+    background-color: white;
+}
